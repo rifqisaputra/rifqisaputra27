@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-size: 18px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.profile {
+    padding: 40px;
+    text-align: center;
+    
+}
+
+.profile h2 {
+    color: #333;
+    font-size: 28px;
+}
+
+.profile h3 {
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.product-list {
+    display: flex;
+    flex-direction: column; /* Mengatur produk menjadi kolom */
+    align-items: center; /* Memusatkan item di dalam kontainer */
+    padding: 20px 0; /* Menambahkan padding */
+}
+
+.product-list h2 {
+    text-align: center; /* Memusatkan teks */
+    font-size: 28px; /* Ukuran font judul */
+    margin-bottom: 20px; /* Jarak bawah judul */
+}
+
+.product {
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan untuk efek kedalaman */
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    padding: 15px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #f3f3f3;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+}
+.service {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff; /* Latar belakang putih untuk bagian layanan */
+    border-radius: 5px; /* Sudut melengkung */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+    margin: 20px 0; /* Jarak atas dan bawah */
+}
+
+.service h2 {
+    font-size: 28px; /* Ukuran font judul */
+    margin-bottom: 20px; /* Jarak bawah judul */
+}
+
+.service ul {
+    list-style-type: none; /* Menghilangkan bullet points */
+    padding: 0; /* Menghilangkan padding */
+}
+
+.service li {
+    margin: 10px 0; /* Jarak antar layanan */
+    font-size: 20px; /* Ukuran font untuk setiap layanan */
+}
